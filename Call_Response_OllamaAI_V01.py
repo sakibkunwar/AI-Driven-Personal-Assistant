@@ -72,8 +72,8 @@ def send_message_summary(recipient_number, summary):
     # print("Printing account_sid....."+str(account_sid))
     # auth_token = os.getenv('TWILIO_AUTH_TOKEN')
     # print("Printing auth_token....."+str(auth_token))
-    account_sid = 'AC0941af1bdc7de40b35eaa819a293dec4'
-    auth_token = '875f6af95a0fb0e9f27d4bc382dbd560'
+    account_sid = 'account_sid'
+    auth_token = 'auth_token'
     # TWILIO_WHATSAPP_NUMBER = '+13613094912'
     twilio_whatsapp_number = 'whatsapp:+14155238886'
     # print("Printing account_sid....." + str(account_sid))
