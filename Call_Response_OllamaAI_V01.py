@@ -74,8 +74,8 @@ def send_message_summary(recipient_number, summary):
     # print("Printing auth_token....."+str(auth_token))
     account_sid = 'account_sid'
     auth_token = 'auth_token'
-    # TWILIO_WHATSAPP_NUMBER = '+13613094912'
-    twilio_whatsapp_number = 'whatsapp:+14155238886'
+   
+    twilio_whatsapp_number = 'whatsapp:+twilio_whatsapp_number'
     # print("Printing account_sid....." + str(account_sid))
     # print("Printing auth_token....." + str(auth_token))
     client = Client(account_sid, auth_token)
@@ -94,6 +94,6 @@ def send_message_summary(recipient_number, summary):
 # Example Test Case
 if __name__ == "__main__":
     test_call_status = "busy"
-    test_caller_number = "+13613094912"
-    test_recipient_number = "+919999041759"
+    test_caller_number = "+test_caller_number"
+    test_recipient_number = "+test_recipient_number"
     handle_incoming_call(test_call_status, test_caller_number, test_recipient_number)
